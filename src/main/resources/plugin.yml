@@ -1,0 +1,31 @@
+name: org.elton.myspigotplugin.MySpigotPlugin
+version: 1.0
+author: Elton
+main: org.elton.myspigotplugin.MySpigotPlugin
+api-version: 1.16
+description: Hopefully it works
+
+
+commands:
+  whoami:
+    description: lets you know who you are
+    usage: /<command>
+    #permission: yourplugin.yourcommandpermission
+
+  fly:
+    description: toggles flight
+    usage: /<command>
+    permission: myspigotplugin.fly
+
+  enderpearlflair:
+    description: sets the flair for enderpearls landing
+    usage: /<command> particle
+    #permission: yourplugin.yourcommandpermission
+
+  deathsave:
+    description: toggles the save from death condition
+    usage: /<command> player_name
+
+  tpplayer:
+    description: tps to the targeted player
+    usage: /<command> player
